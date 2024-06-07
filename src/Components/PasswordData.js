@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MdContentCopy } from "react-icons/md";
 import { Box, Button, Checkbox, FormControlLabel, FormGroup, Grid, IconButton, InputAdornment, TextField, Typography } from "@mui/material";
 
-function App() {
+function PasswordData() {
     const [includeUppercase, setIncludeUppercase] = useState(true);
     const [includeLowercase, setIncludeLowercase] = useState(true);
     const [includeNumbers, setIncludeNumbers] = useState(true);
@@ -137,4 +137,4 @@ function App() {
     )
 }
 
-export default App;
+export default PasswordData;
